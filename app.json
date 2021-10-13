@@ -18,15 +18,6 @@
         "BOT_TOKEN": {
             "description": "Make a bot from @BotFather, and enter it's api token here.",
             "value": ""
-        },
-        "LOG_CHANNEL": {
-            "description": "Create a private group/channel. Add @missrose_bot and your bot + make admin. Do /id. Paste that here",
-             "value": ""
-        },
-        "OWNER_ID": {
-            "description": "Get ur Id Of Telegram nd Paste Here.",
-            "value": "",
-            "required": false
         }
     }
 }
