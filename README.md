@@ -1,16 +1,33 @@
-## 𝕍𝕚𝕕𝕖𝕠 ℂ𝕆𝕄ℙℝ𝔼𝕊𝕊𝕆ℝ 𝔹𝕆𝕋  
+# RPLAY-VIDEO-COMPRESSOR-BOT
 
-## ᴍᴜʟᴛɪғᴜɴᴄᴛɪᴏɴ ǫᴜᴀʟɪᴛʏ ᴄᴏᴍᴘʀᴇssᴏʀ  
+# 💜♥️💜♥️ DEPLOY ON HEROKU
+## 🚀 Deployment
 
-### A Telegram Video CompressorBot  
-
-- it compress videos with negligible Quality change.
-- u can generate sample Compressed videos nd screenshots too.
-- u can set custom video name nd Thumbnail.
-- u can get logs videos to a channel too.
-- Coz of its Quality encode It takes little time to Compress.
-- For now i set it for maximum 5 Processes at a time.
-- Its Running Without Db so Block /ban /Broadcast Feature is currently Not available.
-
-### Fork Repo Then click on below button of ur fork repo.  
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+# 💜♥️ ADD-ON
+## TO MAKE POWERFUL BOT
+<a href="https://dashboard.heroku.com/provision-addon?addonServiceId=6c67493d-8fc2-4cd4-9161-4f1ec11cbe69&planId=062a1cc7-f79f-404c-9f91-135f70175577"><img src="https://transfer.sh/v9OPmc/photo_2021-09-29_09-56-20.jpg"></a>
+###👆🏻👆🏻👆🏻 Click on button to install heroku add-on
+
+# RAILWAY deploy 
+### DEPLOY ON your own risk because I don't know what happened
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Rplayoriginal/RPLAY-VIDEO-COMPRESSOR-BOT&envs=API_ID,API_HASH,BOT_TOKEN,OWNER)
+#
+
+### Variables
+`APP_ID` `API_HASH` `BOT_TOKEN`
+
+`OWNER` : Put Id Of Auth Users with a space between it
+
+
+# DEMO BOT
+<a href="https://t.me/Demo5_r0bot"><img src="https://transfer.sh/Npows7/photo_2021-09-28_18-41-34.jpg"></a>
+
+
+<h2 align="center">☕️ Tea, Coffee, Dinner?</h2>
+<p align="center">
+    <a href="https://www.buymeacoffee.com/Rplay"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+ 
+   <a href="https://www.paypal.me/renish12" target="_blank"><img src="https://transfer.sh/zYGSim/paypal.svg" at="PayPal" stype="height: 60px !important;width: 217px !important;" ></a>
+</p>
