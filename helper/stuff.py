@@ -158,7 +158,7 @@ async def ccom(e):
         reply = cv.wait_event(events.NewMessage(from_users=chat))
         repl = await reply
         if "." in repl.text:
-            q = repl.text.split(".")[-1]("@R.Play™✓")[+1]
+            q = repl.text.split(".")[-1], ("@R.Play™✓")[+1]
             g = repl.text.replace(q, "mkv")
         else:
             g = repl.text + ".mkv"
