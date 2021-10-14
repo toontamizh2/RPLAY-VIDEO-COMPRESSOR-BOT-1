@@ -16,7 +16,7 @@
 #
 
 ### Variables
-`APP_ID` `API_HASH` `BOT_TOKEN`
+`LOG_CHANNEL` `BOT_TOKEN`
 
 No need everything else
 
