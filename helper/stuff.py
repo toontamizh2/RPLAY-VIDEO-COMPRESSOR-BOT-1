@@ -38,10 +38,17 @@ async def start(event):
             ],
             [
                 Button.url(
-                    "MAKE YOUR",
+                    "MAKE OWN",
                     url="github.com/Rplayoriginal/RPLAY-VIDEO-COMPRESSOR-BOT",
                 ),
                 Button.url("CONTACT BOT", url="t.me/Rplay_renish_bot"),
+            ],
+            [
+                Button.url(
+                    "VIDEO COMPRESSOR BOT",
+                    url="t.me/Rplay_compressor_bot",
+                ),
+                Button.url("VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
             ],
             [
                 Button.url(
@@ -91,10 +98,17 @@ async def beck(event):
             ],
             [
                 Button.url(
-                    "MAKE YOUR",
+                    "MAKE OWN",
                     url="github.com/Rplayoriginal/RPLAY-VIDEO-COMPRESSOR-BOT",
                 ),
                 Button.url("CONTACT BOT", url="t.me/Rplay_renish_bot"),
+            ],
+            [
+                Button.url(
+                    "VIDEO COMPRESSOR BOT",
+                    url="t.me/Rplay_compressor_bot",
+                ),
+                Button.url("VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
             ],
             [
                 Button.url(
