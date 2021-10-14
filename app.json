@@ -1,5 +1,5 @@
 {
-    "name": "CompressorBot",
+    "name": "RPLAY ™ VIDEO COMPRESSOR BOT",
     "description": "A Normal Telegram Bot Which can Compress/encode/ Generate Samples of videos.",
     "logo": "https://telegra.ph/file/908e8d3dcbd9704d22a3b.jpg",
     "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
@@ -7,12 +7,8 @@
     "success_url": "https://t.me/BotzHub",
     "stack": "container",
     "env": {
-        "APP_ID": {
-            "description": "You api id, from my.telegram.org or @apiScrapperRoBot.",
-            "value": ""
-        },
-        "API_HASH": {
-            "description": "You api hash, from my.telegram.org or @apiScrapperRoBot.",
+        "LOG_CHANNEL": {
+            "description": "get from https://t.me/LeechDataBot.",
             "value": ""
         },
         "BOT_TOKEN": {
