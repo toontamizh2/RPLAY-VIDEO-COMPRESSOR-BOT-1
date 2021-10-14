@@ -18,7 +18,7 @@
 ### Variables
 `APP_ID` `API_HASH` `BOT_TOKEN`
 
-`OWNER` : Put Id Of Auth Users with a space between it
+No need everything else
 
 
 # DEMO BOT
