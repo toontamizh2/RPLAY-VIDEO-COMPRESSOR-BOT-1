@@ -45,13 +45,6 @@ async def start(event):
             ],
             [
                 Button.url(
-                    "VIDEO COMPRESSOR BOT",
-                    url="t.me/Rplay_compressor_bot",
-                ),
-                Button.url("VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
-            ],
-            [
-                Button.url(
                     "RPLAY ™ MOVIE",
                     url="t.me/rplaymovie",
                 ),
@@ -70,6 +63,20 @@ async def start(event):
                     url="www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Ftransfer%2Fhomepage%2Fexternal%2Fprofile%3FflowContextData%3DMTmBtYhrkZP8YFR-JHtgXOUrxejjPEh9HS56sk7xZrppgt-1uDDEe4amvWiOxFkKxbAfcNKLkf7viZbjvFboJ6NIosgnmFsJ9djlWz06a3lBM4QCkVCaxInU-S1wnY2bywgHXq0QGfQBVuzKD3iLj25qfqWugUxLezZC4-2qEwkHwkWlB6CwIycu5bvyC4IxsO29MpDtWfojP9Rf3xwQJzxrsE3dEHGenrO9rTGkJlfimzCwFJbOEHVFCzo9ZpU5cMrR70qBd-FX6LIC&onboardData=%7B%22country.x%22%3A%22CD%22%2C%22locale.x%22%3A%22en_US%22%2C%22intent%22%3A%22paypalme%22%2C%22redirect_url%22%3A%22https%253A%252F%252Fwww.paypal.com%252Fmyaccount%252Ftransfer%252Fhomepage%252Fexternal%252Fprofile%253FflowContextData%253DMTmBtYhrkZP8YFR-JHtgXOUrxejjPEh9HS56sk7xZrppgt-1uDDEe4amvWiOxFkKxbAfcNKLkf7viZbjvFboJ6NIosgnmFsJ",
                 ),
             ],
+            [
+                Button.url(
+                    "VIDEO COMPRESSOR BOT",
+                    url="t.me/Rplay_compressor_bot",
+                ),
+            ],
+            [
+                Button.url("VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
+            ],
+            [
+                Button.url(
+                    "VIDEO RENAME BOT", url="t.me/Rplay_rename_bot"),
+            ],
+            
         ],
     )
 
@@ -105,13 +112,6 @@ async def beck(event):
             ],
             [
                 Button.url(
-                    "VIDEO COMPRESSOR BOT",
-                    url="t.me/Rplay_compressor_bot",
-                ),
-                Button.url("VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
-            ],
-            [
-                Button.url(
                     "RPLAY ™ MOVIE",
                     url="t.me/rplaymovie",
                 ),
@@ -129,6 +129,18 @@ async def beck(event):
                     "DONATE",
                     url="www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Ftransfer%2Fhomepage%2Fexternal%2Fprofile%3FflowContextData%3DMTmBtYhrkZP8YFR-JHtgXOUrxejjPEh9HS56sk7xZrppgt-1uDDEe4amvWiOxFkKxbAfcNKLkf7viZbjvFboJ6NIosgnmFsJ9djlWz06a3lBM4QCkVCaxInU-S1wnY2bywgHXq0QGfQBVuzKD3iLj25qfqWugUxLezZC4-2qEwkHwkWlB6CwIycu5bvyC4IxsO29MpDtWfojP9Rf3xwQJzxrsE3dEHGenrO9rTGkJlfimzCwFJbOEHVFCzo9ZpU5cMrR70qBd-FX6LIC&onboardData=%7B%22country.x%22%3A%22CD%22%2C%22locale.x%22%3A%22en_US%22%2C%22intent%22%3A%22paypalme%22%2C%22redirect_url%22%3A%22https%253A%252F%252Fwww.paypal.com%252Fmyaccount%252Ftransfer%252Fhomepage%252Fexternal%252Fprofile%253FflowContextData%253DMTmBtYhrkZP8YFR-JHtgXOUrxejjPEh9HS56sk7xZrppgt-1uDDEe4amvWiOxFkKxbAfcNKLkf7viZbjvFboJ6NIosgnmFsJ",
                 ),
+            ],
+                Button.url(
+                    "VIDEO COMPRESSOR BOT",
+                    url="t.me/Rplay_compressor_bot",
+                ),
+            ],
+            [
+                Button.url("VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
+            ],
+            [
+                Button.url(
+                    "VIDEO RENAME BOT", url="t.me/Rplay_rename_bot"),
             ],
         ],
     )
