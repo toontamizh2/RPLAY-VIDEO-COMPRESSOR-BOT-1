@@ -45,13 +45,6 @@ async def start(event):
             ],
             [
                 Button.url(
-                    "VIDEO COMPRESSOR BOT",
-                    url="t.me/Rplay_compressor_bot",
-                ),
-                Button.url("VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
-            ],
-            [
-                Button.url(
                     "RPLAY ™ MOVIE",
                     url="t.me/rplaymovie",
                 ),
@@ -72,15 +65,15 @@ async def start(event):
             ],
             [
                 Button.url(
-                    "Developer - @RPLAY ™ ", url="t.me/renishrplay"),
+                    "VIDEO COMPRESSOR BOT", url="t.me/Rplay_compressor_bot"),
             ],
             [
                 Button.url(
-                    "Developer - @RPLAY ™ ", url="t.me/renishrplay"),
+                    "VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
             ],
             [
                 Button.url(
-                    "Developer - @RPLAY ™ ", url="t.me/renishrplay"),
+                    "VIDEO RENAME BOT", url="t.me/Rplay_rename_bot"),
             ],
         ],
     )
@@ -117,13 +110,6 @@ async def beck(event):
             ],
             [
                 Button.url(
-                    "VIDEO COMPRESSOR BOT",
-                    url="t.me/Rplay_compressor_bot",
-                ),
-                Button.url("VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
-            ],
-            [
-                Button.url(
                     "RPLAY ™ MOVIE",
                     url="t.me/rplaymovie",
                 ),
@@ -144,16 +130,16 @@ async def beck(event):
             ],
             [
                 Button.url(
-                    "Developer - @RPLAY ™ ", url="t.me/renishrplay"),
+                    "VIDEO COMPRESSOR BOT", url="t.me/Rplay_compressor_bot"),
             ],
             [
                 Button.url(
-                    "Developer - @RPLAY ™ ", url="t.me/renishrplay"),
+                    "VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
             ],
             [
                 Button.url(
-                    "Developer - @RPLAY ™ ", url="t.me/renishrplay"),
-            ],            
+                    "VIDEO RENAME BOT", url="t.me/Rplay_rename_bot"),
+            ],
         ],
     )
 
