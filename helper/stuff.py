@@ -70,13 +70,13 @@ async def start(event):
                 ),
             ],
             [
-                Button.url("VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
+                Button.url("VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot",),
             ],
             [
                 Button.url(
-                    "VIDEO RENAME BOT", url="t.me/Rplay_rename_bot"),
+                    "VIDEO RENAME BOT", url="t.me/Rplay_rename_bot",
+               ),
             ],
-            
         ],
     )
 
@@ -136,11 +136,12 @@ async def beck(event):
                 ),
             ],
             [
-                Button.url("VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
+                Button.url("VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot",),
             ],
             [
                 Button.url(
-                    "VIDEO RENAME BOT", url="t.me/Rplay_rename_bot"),
+                    "VIDEO RENAME BOT", url="t.me/Rplay_rename_bot",
+                ),
             ],
         ],
     )
