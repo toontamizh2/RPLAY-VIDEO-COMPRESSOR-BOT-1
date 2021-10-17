@@ -29,7 +29,7 @@ async def up(event):
 async def start(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.reply(
-        f"Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
+        f"Hi `{ok.user.first_name}`\n👋, I am **RPLAY ™** `RENISH COMPRESSOR BOT` @Rplay_compressor_bot!\n\n\nI can COMPRESS VIDEO & Can Encode Videos. \n\nReduce Size of Videos With Negligible Quality Change. \n\nYOU can Generate SAMPLES VIDEO & SCREENSHOTS too.\n\n Made by @renishrplay",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
