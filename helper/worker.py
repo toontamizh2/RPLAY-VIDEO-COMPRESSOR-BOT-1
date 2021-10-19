@@ -109,6 +109,7 @@ async def encc(e):
         ds = await e.client.send_file(
             e.chat_id,
             file=ok,
+            caption="hi 👋",
             force_document=True,
             thumb=thum)
         await nnn.delete()
