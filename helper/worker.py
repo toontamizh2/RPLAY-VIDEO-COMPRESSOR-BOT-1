@@ -111,8 +111,8 @@ async def encc(e):
             file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\nMade by @renishrplay",
             buttons=[
-                [Button.inline("r", url=t.me/renishrplay)],
-                [Button.inline("1", url=t.me/renishrplay)],
+                [Button.inline("r", url="t.me/renishrplay")],
+                [Button.inline("1", url="t.me/renishrplay")],
             ],
         ),
             force_document=True,
