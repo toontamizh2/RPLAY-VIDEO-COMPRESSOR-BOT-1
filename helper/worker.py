@@ -109,7 +109,7 @@ async def encc(e):
         ds = await e.client.send_file(
             e.chat_id,
             file=ok,
-            caption="hi 👋",
+            caption=f"video compressed by @Rplay_compressor_bot\n\nMade by @renishrplay",
             force_document=True,
             thumb=thum)
         await nnn.delete()
