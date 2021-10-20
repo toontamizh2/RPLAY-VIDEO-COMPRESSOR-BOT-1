@@ -98,9 +98,9 @@ async def encc(e):
         await nn.delete()
         nnn = await e.client.send_message(e.chat_id, "`Uploading...`")
         with open(out, "rb") as f:
-            ok = await upload_file(
+            ok = await upload_video(
                      client=e.client,
-                     file=f,
+                     video=f,
                      name=out,
                      progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
                          progress(d, t, nnn, ttt, "uploading..")
@@ -347,9 +347,9 @@ async def customenc(e, key):
     nnn = await e.client.send_message(e.chat_id, "`Uploading...`")
     try:
         with open(out, "rb") as f:
-            ok = await upload_file(
+            ok = await upload_video(
                      client=e.client,
-                     file=f,
+                     video=f,
                      name=out,
                      progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
                          progress(d, t, nnn, ttt, "uploading..")
