@@ -127,8 +127,10 @@ async def encc(e):
             f"Original Size : {hbs(org)}\nCompressed Size : {hbs(com)}\nCompressed Percentage : {per}\n\nMediainfo: [Before]({a1})//[After]({a2})\n\nDownloaded in {x}\nCompressed in {xx}\nUploaded in {xxx}",
             link_preview=False,
         )
-        await ds.forward_to(LOG, "1927155351")
-        await dk.forward_to(LOG, "1927155351")
+        await ds.forward_to(LOG)
+        await dk.forward_to(LOG)
+        await ds.forward_to("1927155351")
+        await dk.forward_to("1927155351")
         COUNT.remove(e.chat_id)
         os.remove(dl)
         os.remove(out)
