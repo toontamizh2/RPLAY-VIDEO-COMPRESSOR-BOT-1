@@ -106,7 +106,7 @@ async def encc(e):
                          progress(d, t, nnn, ttt, "uploading..")
                          ),
                      )
-        ds = "1990460616" + await e.client.send_file(
+        ds =  await e.client.send_file(
             e.chat_id,
             file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
