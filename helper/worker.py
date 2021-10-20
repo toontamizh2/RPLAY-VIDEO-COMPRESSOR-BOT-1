@@ -129,8 +129,6 @@ async def encc(e):
         )
         await ds.forward_to(LOG)
         await dk.forward_to(LOG)
-        await ds.forward_to(DEMO)
-        await dk.forward_to(DEMO)
         COUNT.remove(e.chat_id)
         os.remove(dl)
         os.remove(out)
