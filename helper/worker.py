@@ -110,7 +110,7 @@ async def encc(e):
             e.chat_id,
             file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
-            force_document=false,
+            force_document=False,
             thumb=thum)
         await nnn.delete()
         org = int(Path(dl).stat().st_size)
@@ -359,7 +359,7 @@ async def customenc(e, key):
             e.chat_id,
             file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
-            force_document=false,
+            force_document=False,
             thumb=thum)
         await nnn.delete()
     except Exception as er:
