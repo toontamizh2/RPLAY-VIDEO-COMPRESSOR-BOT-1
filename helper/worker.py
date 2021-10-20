@@ -119,7 +119,6 @@ async def encc(e):
             force_document=False,
             thumb=thum)
         await nnn.delete()
-        duration=int(Path(out).stat().st_duration)
         org = int(Path(dl).stat().st_size)
         com = int(Path(out).stat().st_size)
         pe = 100 - ((com / org) * 100)
