@@ -106,9 +106,9 @@ async def encc(e):
                          progress(d, t, nnn, ttt, "uploading..")
                          ),
                      )
-        ds =  await e.client.send_file(
+        ds =  await e.client.send_video(
             e.chat_id,
-            file=ok,
+            video=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             force_document=True,
             thumb=thum)
@@ -355,9 +355,10 @@ async def customenc(e, key):
                          progress(d, t, nnn, ttt, "uploading..")
                          ),
                      )
-        ds = await e.client.send_file(
+        ds = await e.client.send_video(
             e.chat_id,
-            file=ok,
+            video=ok,
+            caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             force_document=True,
             thumb=thum)
         await nnn.delete()
