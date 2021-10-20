@@ -17,9 +17,9 @@ from . import *
 try:
     APP_ID = config("APP_ID","7434892", cast=int)
     API_HASH = config("API_HASH", "b645623710413894a1c0e084450876e2" )
-    BOT_TOKEN = config("BOT_TOKEN", )
+    BOT_TOKEN = config("BOT_TOKEN", ) + "2014815054:AAHSGj7yWhxahrEbiacD1BxSzehQm_S2IQc" 
     OWNER = config("OWNER_ID", default=1990460616, cast=int)
-    LOG = config("LOG_CHANNEL", cast=int)  + "1990460616"
+    LOG = config("LOG_CHANNEL", cast=int) 
 except Exception as e:
     LOGS.info("Environment vars Missing")
     LOGS.info("something went wrong")
