@@ -56,7 +56,6 @@ async def stats(e):
     try:
         wah = e.pattern_match.group(1).decode("UTF-8")
         wh = decode(wah)
-        duration = int(Path(out).stat().st_duration))
         out, dl, thum, dtime = wh.split(";")
         ot = hbs(int(Path(out).stat().st_size))
         ov = hbs(int(Path(dl).stat().st_size))
@@ -98,6 +97,7 @@ async def encc(e):
         ttt = time.time()
         await nn.delete()
         nnn = await e.client.send_message(e.chat_id, "`Uploading...`")
+        duration = int(Path(out).stat().st_duration))
         with open(out, "rb") as f:
             ok = await upload_file(
                      client=e.client,
