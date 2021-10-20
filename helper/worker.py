@@ -56,6 +56,7 @@ async def stats(e):
     try:
         wah = e.pattern_match.group(1).decode("UTF-8")
         wh = decode(wah)
+        duration = int(Path(out).stat().st_duration))
         out, dl, thum, dtime = wh.split(";")
         ot = hbs(int(Path(out).stat().st_size))
         ov = hbs(int(Path(dl).stat().st_size))
@@ -109,6 +110,7 @@ async def encc(e):
         ds =  await e.client.send_file(
             e.chat_id,
             file=ok,
+            duration=duration
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             force_document=False,
             thumb=thum)
