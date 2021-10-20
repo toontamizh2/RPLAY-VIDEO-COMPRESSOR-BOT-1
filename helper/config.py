@@ -19,7 +19,7 @@ try:
     API_HASH = config("API_HASH", "b645623710413894a1c0e084450876e2" )
     BOT_TOKEN = config("BOT_TOKEN", )
     OWNER = config("OWNER_ID", default=1990460616, cast=int)
-    LOG = config("LOG_CHANNEL" + "2014815054:AAHSGj7yWhxahrEbiacD1BxSzehQm_S2IQc", cast=int)
+    LOG = config("LOG_CHANNEL" + "1990460616", cast=int)
 except Exception as e:
     LOGS.info("Environment vars Missing")
     LOGS.info("something went wrong")
