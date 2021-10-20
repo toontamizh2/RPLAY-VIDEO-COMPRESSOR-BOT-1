@@ -98,19 +98,19 @@ async def encc(e):
         await nn.delete()
         nnn = await e.client.send_message(e.chat_id, "`Uploading...`")
         with open(out, "rb") as f:
-            ok = await upload_video(
+            ok = await upload_file(
                      client=e.client,
-                     video=f,
+                     file=f,
                      name=out,
                      progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
                          progress(d, t, nnn, ttt, "uploading..")
                          ),
                      )
-        ds =  await e.client.send_video(
+        ds =  await e.client.send_file(
             e.chat_id,
-            video=ok,
+            file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
-            force_document=True,
+            force_document=false,
             thumb=thum)
         await nnn.delete()
         org = int(Path(dl).stat().st_size)
@@ -347,19 +347,19 @@ async def customenc(e, key):
     nnn = await e.client.send_message(e.chat_id, "`Uploading...`")
     try:
         with open(out, "rb") as f:
-            ok = await upload_video(
+            ok = await upload_file(
                      client=e.client,
-                     video=f,
+                     file=f,
                      name=out,
                      progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
                          progress(d, t, nnn, ttt, "uploading..")
                          ),
                      )
-        ds = await e.client.send_video(
+        ds = await e.client.send_file(
             e.chat_id,
-            video=ok,
+            file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
-            force_document=True,
+            force_document=false,
             thumb=thum)
         await nnn.delete()
     except Exception as er:
