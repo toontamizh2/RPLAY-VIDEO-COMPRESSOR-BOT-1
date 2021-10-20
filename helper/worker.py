@@ -97,7 +97,6 @@ async def encc(e):
         ttt = time.time()
         await nn.delete()
         nnn = await e.client.send_message(e.chat_id, "`Uploading...`")
-        duration = int(Path(out).stat().st_duration))
         with open(out, "rb") as f:
             ok = await upload_file(
                      client=e.client,
@@ -112,6 +111,11 @@ async def encc(e):
             file=ok,
             duration=duration,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
+            buttons=[
+            [Button.inline("STATS", url="t.me//renishrplay")],
+            [Button.inline("CANCEL PROCESS", url="t.me//renishrplay")],
+        ],
+    )
             force_document=False,
             thumb=thum)
         await nnn.delete()
