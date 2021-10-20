@@ -115,7 +115,7 @@ async def encc(e):
             [Button.inline("STATS", url="t.me//renishrplay")],
             [Button.inline("CANCEL PROCESS", url="t.me//renishrplay")],
         ],
-    )
+    ),
             force_document=False,
             thumb=thum)
         await nnn.delete()
