@@ -119,17 +119,10 @@ async def encc(e):
             ),
             buttons=[
                 [
-                Button.url(
-                    "VIDEO COMPRESSOR BOT", url="t.me/Rplay_compressor_bot"),
-            ],
-            [
-                Button.url(
-                    "VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
-            ],
-            [
-                Button.url(
-                    "VIDEO RENAME BOT", url="t.me/Rplay_rename_bot"),
-            ],
+                    Button.inline("SCREENSHOTS", data=f"sshot{wah}"),
+                    Button.inline("COMPRESS", data=f"sencc{wah}"),
+                ],
+                [Button.inline("SKIP", data=f"skip{wah}")],
             ],
         )
         await nnn.delete()
