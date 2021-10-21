@@ -18,19 +18,7 @@ COUNT = []
 OK = {}
 
 uptime = dt.now()       
-metadata = extractMetadata(createParser(file))
-             duration = 0
-             if metadata.has("duration"):
-                 duration = metadata.get('duration').seconds
-             width = 0
-             height = 0
-         
-             if os.path.exists(thumb_location):
-                 thumb_image_path = await copy_file(thumb_location, os.path.dirname(os.path.abspath(file)))
-             else:
-                 thumb_image_path = await take_screen_shot(file, os.path.dirname(os.path.abspath(file)), random.randint(0, duration - 1))
- os.system(f"wget {metadata} thumb.jpg")
-           
+os.system("wget https://telegra.ph/file/908e8d3dcbd9704d22a3b.jpg -O thumb.jpg")           
 
 if not os.path.isdir("downloads/"):
     os.mkdir("downloads/")
