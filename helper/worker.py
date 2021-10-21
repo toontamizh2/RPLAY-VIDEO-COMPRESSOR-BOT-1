@@ -108,6 +108,8 @@ async def encc(e):
                      )
         ds =  await e.client.send_file(
             e.chat_id,
+            a1 = await info(dl, e)
+            a2 = await info(out, e)
             file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             force_document=False,
@@ -117,10 +119,10 @@ async def encc(e):
             ),
             buttons=[
                 [
-                    Button.url("SCREENSHOTS", url="t.me//renishrplay"),
-                    Button.inline("COMPRESS", data=f"sencc{wah}"),
+                    Button.inline("BEFORE", data=f"a1"),
+                    Button.inline("AFTER", data=f"a2"),
                 ],
-                [Button.inline("SKIP", data=f"skip{wah}")],
+                [Button.url("SKIP", url="t.me//renishrplay")],
             ],
         )
         await nnn.delete()
