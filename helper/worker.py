@@ -237,10 +237,10 @@ async def encod(event):
         # if (user.id) not in pp:
         #    return await xxx.edit(
         #        "U Must Subscribe This Channel To Use This Bot",
-        #       buttons=[Button.url("JOIN CHANNEL", url="put group link")],
+        #       buttons=[Button.url("JOIN CHANNEL", url="t.me/rplaymovie")],
         #   )
         if len(COUNT) > 1 and user.id != OWNER:
-            llink = (await event.client(cl(MCNL))).link
+            llink = (await event.client(cl(LOG))).link
             return await xxx.edit(
                 "Overload Already 16 Process Running",
                 buttons=[Button.url("Working Status", url=llink)],
