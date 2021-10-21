@@ -111,13 +111,18 @@ async def encc(e):
             file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             force_document=False,
-            thumb=thum),
+            thumb=thum,
+            progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
+                progress(d, t, xxx, ttt, "uploading..", file=f"{out}")
+            ),
             buttons=[
-                Button.url(
-                    "Developer - @RPLAY ™ ", url="t.me/renishrplay"),
+                [
+                    Button.inline("SCREENSHOTS", data=f"sshot{wah}"),
+                    Button.inline("COMPRESS", data=f"sencc{wah}"),
+                ],
+                [Button.inline("SKIP", data=f"skip{wah}")],
             ],
-         ],
-    )
+        )
         await nnn.delete()
         org = int(Path(dl).stat().st_size)
         com = int(Path(out).stat().st_size)
