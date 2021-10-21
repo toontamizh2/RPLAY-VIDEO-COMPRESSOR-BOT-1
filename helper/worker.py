@@ -109,13 +109,9 @@ async def encc(e):
         ds =  await e.client.send_file(
             e.chat_id,
             file=ok,
-            metadata = 0,
-            duration = 0,
-            width = 0,
-            height = 0,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             force_document=False,
-            thumb=take_screen_shot(ok, os.path.dirname(os.path.abspath(ok)), random.randint(0, duration - 1)),
+            thumb=pic,
             progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
                 progress(d, t, xxx, ttt, "uploading..", file=f"{out}")
             ),
