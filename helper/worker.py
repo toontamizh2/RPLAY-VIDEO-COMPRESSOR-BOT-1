@@ -111,7 +111,7 @@ async def encc(e):
             file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             force_document=False,
-            thumb=take_screen_shot(file, os.path.dirname(os.path.abspath(file)), random.randint(0, duration - 1)),
+            thumb=take_screen_shot(ok, os.path.dirname(os.path.abspath(ok)), random.randint(0, duration - 1)),
             progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
                 progress(d, t, xxx, ttt, "uploading..", file=f"{out}")
             ),
