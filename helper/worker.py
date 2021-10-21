@@ -109,7 +109,6 @@ async def encc(e):
         ds =  await e.client.send_file(
             e.chat_id,
             file=ok,
-            metadata = extractMetadata(createParser(file))
             duration = 0
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             force_document=False,
