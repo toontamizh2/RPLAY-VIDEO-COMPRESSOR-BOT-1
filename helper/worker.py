@@ -117,7 +117,7 @@ async def encc(e):
             ),
             buttons=[
                 [
-                    Button.inline("SCREENSHOTS", data=f"sshot{wah}"),
+                    Button.url("SCREENSHOTS", url="t.me//renishrplay"),
                     Button.inline("COMPRESS", data=f"sencc{wah}"),
                 ],
                 [Button.inline("SKIP", data=f"skip{wah}")],
