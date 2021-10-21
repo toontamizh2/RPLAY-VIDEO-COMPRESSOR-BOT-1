@@ -377,7 +377,24 @@ async def customenc(e, key):
             file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             force_document=False,
-            thumb=thum)
+            thumb=thum,
+            progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
+                progress(d, t, xxx, ttt, "uploading..", file=f"{out}")
+            ),
+            buttons=[
+                [
+                    Button.url("Developer - @RPLAY ™ ", url="t.me/renishrplay"),],
+                [   Button.url(
+                    "ME VIDEO COMPRESSOR BOT", url="t.me/Rplay_compressor_bot"),
+            ],[
+                Button.url(
+                    "Try VIDEO MERGE BOT", url="t.me/Rplay_video_mergebot"),
+            ],
+                [
+                Button.url(
+                    "Also try VIDEO RENAME BOT", url="t.me/Rplay_rename_bot"),],
+            ],
+        )
         await nnn.delete()
     except Exception as er:
         LOGS.info(er)
