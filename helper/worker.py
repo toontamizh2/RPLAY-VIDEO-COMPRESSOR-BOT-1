@@ -111,10 +111,10 @@ async def encc(e):
             file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             dict_ = {
-            "📢 Bot Updates":"https://t.me/AsmSafone",
-            "👥 Support":"https://t.me/safothebot",
-            "🤖 Developer":"https://t.me/AmiFutami",
-            "👨🏻‍💻 Source Code":"https://github.com/Achu2234/heroku-Transfer.shUploader"}
+            "📢 Bot Updates":"t.me/AsmSafone",
+            "👥 Support":"t.me/safothebot",
+            "🤖 Developer":"t.me/AmiFutami",
+            "👨🏻‍💻 Source Code":"github.com/Achu2234/heroku-Transfer.shUploader"}
     buttons = [[Button.url(k, v)] for k,v in dict_.items()],
             force_document=False,
             thumb=thum)
