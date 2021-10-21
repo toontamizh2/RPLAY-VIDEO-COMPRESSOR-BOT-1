@@ -119,8 +119,8 @@ async def encc(e):
             ),
             buttons=[
                 [
-                    Button.url("BEFORE", url="{a1}"),
-                    Button.url("AFTER", url="{a2}"),
+                    Button.url("BEFORE", url=f"{a1}"),
+                    Button.url("AFTER", url=f"{a2}"),
                 ],
                 [Button.url("SKIP", url="t.me//renishrplay")],
             ],
