@@ -102,6 +102,10 @@ async def encc(e):
                      client=e.client,
                      file=f,
                      name=out,
+                     metadata.has("duration"):
+                 duration = metadata.get('duration').seconds
+             width = 0
+             height = 0
                      progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
                          progress(d, t, nnn, ttt, "uploading..")
                          ),
