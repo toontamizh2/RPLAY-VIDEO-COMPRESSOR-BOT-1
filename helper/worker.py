@@ -239,7 +239,7 @@ async def encod(event):
         #        "U Must Subscribe This Channel To Use This Bot",
         #       buttons=[Button.url("JOIN CHANNEL", url="t.me/rplaymovie")],
         #   )
-        if len(COUNT) > 1 and user.id != OWNER:
+        if len(COUNT) < 1 and user.id != OWNER:
             llink = (await event.client(cl(LOG))).link
             return await xxx.edit(
                 "Overload Already 16 Process Running",
