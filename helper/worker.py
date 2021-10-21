@@ -110,12 +110,14 @@ async def encc(e):
             e.chat_id,
             file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
-            buttons=[
-                [Button.url("STATS", url="t.me//renishrplay")],
-            ],
-        ),
             force_document=False,
-            thumb=thum)
+            thumb=thum,
+            buttons=[
+                Button.url(
+                    "Developer - @RPLAY ™ ", url="t.me/renishrplay"),
+            ],
+         ],
+    )
         await nnn.delete()
         org = int(Path(dl).stat().st_size)
         com = int(Path(out).stat().st_size)
