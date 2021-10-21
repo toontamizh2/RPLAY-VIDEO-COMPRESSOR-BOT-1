@@ -96,6 +96,16 @@ async def encc(e):
         ees = dt.now()
         ttt = time.time()
         await nn.delete()
+        wah = e.pattern_match.group(1).decode("UTF-8")
+    key = decode(wah)
+    out, dl, thum, dtime = key.split(";")
+    os.mkdir(wah)
+    tsec = await genss(dl)
+    fps = 10 / tsec
+    ncmd = f"ffmpeg -i '{dl}' -vf fps={fps} -vframes 10 '{wah}/pic%01d.png'"
+    process = await asyncio.create_subprocess_shell(
+        ncmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
+    )
         nnn = await e.client.send_message(e.chat_id, "`Uploading...`")
         with open(out, "rb") as f:
             ok = await upload_file(
@@ -111,7 +121,7 @@ async def encc(e):
             file=ok,
             caption=f"video compressed by @Rplay_compressor_bot\n\n\nMade by @renishrplay\n`RENISH`\n`હા હું ગુજરતી.`\n**રેનીશ**",
             force_document=False,
-            thumb=pic,
+            thumb=glob.glob(f"{wah}/*"),
             progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
                 progress(d, t, xxx, ttt, "uploading..", file=f"{out}")
             ),
