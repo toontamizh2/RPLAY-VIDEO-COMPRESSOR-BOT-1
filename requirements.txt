@@ -1,6 +1,6 @@
 aiohttp
 python-decouple
 pyaesni
-https://github.com/Rplayoriginal/RPLAY-VIDEO-COMPRESSOR-BOT/blob/main/Telethon-master.zip
+https://github.com/1Danish-00/Telethon/archive/master.zip
 html_telegraph_poster
 requests
