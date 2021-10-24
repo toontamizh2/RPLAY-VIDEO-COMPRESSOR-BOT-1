@@ -1,5 +1,6 @@
 # RPLAY-VIDEO-COMPRESSOR-BOT
-## $ just forke it & go if don't work I updated so delete repo & froke again....
+## $just deploy on railway
+#for heroku  just forke it & go if don't work  delete repo & froke again....
 Thank you
 # 💜♥️💜♥️ DEPLOY ON HEROKU
 ## 🚀 Deployment
@@ -12,7 +13,7 @@ Thank you
 ###👆🏻👆🏻👆🏻 Click on button to install heroku add-on
 
 # RAILWAY deploy 
-### DEPLOY ON your own risk because I don't know what happened
+### DEPLOY ON RAILWAY 🚂 it's working
 [![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Rplayoriginal/RPLAY-VIDEO-COMPRESSOR-BOT&envs=LOG_CHANNEL,BOT_TOKEN)
 #
 
