@@ -29,7 +29,7 @@ async def up(event):
 async def start(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.reply(
-        f"Hi `{ok.user.first_name}`\n👋, I am **RPLAY ™** `RENISH COMPRESSOR BOT` @Rplay_compressor_bot!\n\n\nI can COMPRESS VIDEO & Can Encode Videos. \n\nReduce Size of Videos With Negligible Quality Change. \n\nYOU can Generate SAMPLES VIDEO & SCREENSHOTS too.\n\n Made by @renishrplay",
+        f"Hi `{ok.user.first_name}`\n👋, I am **TBMC ™** `HEVC COMPRESSOR BOT` FROM POKEMON MASTER!\n\n\nI can COMPRESS VIDEO & Can Encode Videos. \n\nReduce Size of Videos With Negligible Quality Change. \n\nYOU can Generate SAMPLES VIDEO & SCREENSHOTS too.\n\n Made by Pokemon Master",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
